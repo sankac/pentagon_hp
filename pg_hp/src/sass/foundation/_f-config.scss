@@ -1,0 +1,62 @@
+@charset "UTF-8";
+//==========================================================================
+// foundation/_f-config.scss ＊変数
+//==========================================================================
+
+//fonts
+  $noto: 'Noto Sans Japanese', sans-serif;
+  $josefin: 'Josefin Sans', sans-serif;
+
+//幅広：font-size:rem
+  $fs__xxs: 0.7rem;
+  $fs__xs: 1rem;
+  $fs__s: 1.4rem;
+  $fs__m: 1.9rem;
+  $fs__l: 2.4rem;
+  $fs__xl: 3.7rem;
+  $fs__xxl: 5.4rem;
+  $fs__xl--h: 5vh;
+
+//通常：font-size:vw
+  $fs__md--xxs: 0.7vw;
+  $fs__md--xs: 1.2vw;
+  $fs__md--s: 1.7vw;
+  $fs__md--m: 2.2vw;
+  $fs__md--l: 2.7vw;
+  $fs__md--xl: 4.7vw;
+  $fs__md--xxl: 5.7vw;
+  $fs__md__xl--h: 3vh;
+
+//スマホ：font-size:vw
+  $fs__sm--xxs: 3vw;
+  $fs__sm--xs: 3.5vw;
+  $fs__sm--s: 4vw;
+  $fs__sm--m: 4.5vw;
+  $fs__sm--l: 5vw;
+  $fs__sm--xl: 7vw;
+  $fs__sm--xxl: 8vw;
+  $fs__sm__xl--h: 3vh;
+
+//font-weight-日本語
+  $fw__xs: 100;
+  $fw__s: 300;
+  $fw__m: 500;
+  $fw__l: 700;
+  $fw__xl: 800;
+  $fw__xxl: 900;
+
+//font-weight-英語
+  $fw__xs--en: 100;
+  $fw__s--en: 300;
+  $fw__m--en: 400;
+  $fw__l--en: 600;
+  $fw__xl--en: 700;
+
+//color
+  $black: #000;
+  $darkgray: #4A4A4A;
+  $white: #fff;
+  $offgray: #F4F4F3;
+  $navy: #385D89;
+  $sand: #EFE8DE;
+  $pink: #ff5666;

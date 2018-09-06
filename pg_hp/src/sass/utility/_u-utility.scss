@@ -1,0 +1,232 @@
+@charset "UTF-8";
+//==========================================================================
+// utility/_u-utlity.scss ＊テキスト関連・調整
+//==========================================================================
+
+//フォントファミリー
+  .u-fontfamily__en {
+    font-family: $josefin;
+  }
+
+//フォントサイズ：rem
+
+  .u-fontsize__xxs {
+    font-size: $fs__xxs;
+  }
+  .u-fontsize__xs {
+    font-size: $fs__xs;
+  }
+
+  .u-fontsize__s {
+    font-size: $fs__s;
+  }
+
+  .u-fontsize__m {
+    font-size: $fs__m;
+  }
+
+  .u-fontsize__l {
+    font-size: $fs__l;
+  }
+
+  .u-fontsize__xl {
+    font-size: $fs__xl;
+  }
+
+  .u-fontsize__xxl {
+    font-size: $fs__xxl;
+  }
+
+
+//メニューフォントサイズ
+  .u-fontsize__menu {
+    font-size: $fs__xs;
+  }
+
+//フォントウェイトJAPANESE
+  .u-fontweight__xs {
+    font-weight: $fw__xs;
+  }
+
+  .u-fontweight__s {
+    font-weight: $fw__s;
+  }
+
+  .u-fontweight__m {
+    font-weight: $fw__m;
+  }
+
+  .u-fontweight__l {
+    font-weight: $fw__l;
+  }
+
+  .u-fontweight__xl {
+    font-weight: $fw__xl;
+  }
+
+  .u-fontweight__xxl {
+    font-weight: $fw__xxl;
+  }
+
+//フォントウェイトENGLISH
+  .u-fontweight__xs--en {
+    font-weight: $fw__xs--en;
+  }
+
+  .u-fontweight__s--en {
+    font-weight: $fw__s--en;
+  }
+
+  .u-fontweight__m--en {
+    font-weight: $fw__m--en;
+  }
+
+  .u-fontweight__l--en {
+    font-weight: $fw__l--en;
+  }
+
+  .u-fontweight__xl--en {
+    font-weight: $fw__xl--en;
+  }
+
+//フォントカラー
+  .u-fontcolor__none {
+    color: none;
+  }
+
+  .u-fontcolor__white {
+    color: $white;
+  }
+
+  .u-fontcolor__navy {
+    color: $navy;
+  }
+
+//ラインハイト
+  .u-lineheight__s {
+    line-height: 0.8;
+  }
+
+//レタースペーシング
+ .u-letterspacing__l {
+    letter-spacing: 0.7rem;
+  }
+
+  .u-letterspacing__xl {
+    letter-spacing: 1rem;
+  }
+
+//下線
+  .u-border-bottom {
+    border-bottom: 1px dashed $darkgray;
+  }
+
+//背景
+ .u-bg__sand {
+   background-color: $sand;
+ }
+
+//フォント縦書き
+  .u-font-upright {
+    -ms-writing-mode: tb-rl;
+   writing-mode: vertical-rl;
+  }
+
+//フォント回転
+  .u-font-roate__90 {
+    transform: rotate( 90deg );
+    white-space: wrap;
+  }
+
+/* ***************************************************************************
+    PC(1024px)
+  *************************************************************************** */
+  @media screen and (max-width: 1023px) {
+
+  //フォントサイズ：vw
+    .u-fontsize__xxs {
+      font-size: $fs__md--xxs;
+    }
+    .u-fontsize__xs {
+      font-size: $fs__md--xs;
+    }
+
+    .u-fontsize__s {
+      font-size: $fs__md--s;
+    }
+
+    .u-fontsize__m {
+      font-size: $fs__md--m;
+    }
+
+    .u-fontsize__l {
+      font-size: $fs__md--l;
+    }
+
+    .u-fontsize__xl {
+      font-size: $fs__md--xl;
+    }
+
+    .u-fontsize__xxl {
+      font-size: $fs__md--xxl;
+    }
+
+    .u-fontsize__xl--h {
+      font-size: $fs__md__xl--h;
+    }
+
+  }
+
+/* ***************************************************************************
+    MOBILE(~768px)
+  *************************************************************************** */
+  @media screen and (max-width: 767px) {
+
+  //スマホフォントサイズ：vw
+
+    .u-fontsize__xxs {
+    font-size: $fs__sm--xxs;
+  }
+
+    .u-fontsize__xs {
+      font-size: $fs__sm--xs;
+    }
+
+    .u-fontsize__s {
+      font-size: $fs__sm--s;
+    }
+
+    .u-fontsize__m {
+      font-size: $fs__sm--m;
+    }
+
+    .u-fontsize__l {
+      font-size: $fs__sm--l;
+    }
+
+    .u-fontsize__xl {
+      font-size: $fs__sm--xl;
+    }
+
+    .u-fontsize__xxl {
+      font-size: $fs__sm--xxl;
+    }
+
+    .u-fontsize__xl--h {
+      font-size: $fs__sm__xl--h;
+    }
+
+  //メニューフォントサイズ
+    .u-fontsize__menu {
+      font-size: $fs__sm--l;
+    }
+
+  //フォント縦書き解除
+    .u-font-upright--sm {
+      -ms-writing-mode: inherit;
+      writing-mode: inherit;
+      margin-left: 1rem;
+      text-align: center;
+    }
+
+  }
