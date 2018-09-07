@@ -3,133 +3,24 @@
 // object/_o-object.scss ＊オブジェクト・アイテム関連
 //==========================================================================
 
-//VCN LOGO
-  .o-logo {
-    width: 18%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%); /* Safari用 */
-    transform: translate(-50%, -50%);
+//HERO:LOGO AREA
+  .o-hero_logomark {
+    width: 15%;
   }
 
-//閉じる
-  .o-close {
-    display: none;
+  .o-hero_shadow {
+    width: 15%;
+    margin-top: 1.5rem;
   }
 
-//NAV MENU
-  .o-navmenu {
-    position: absolute;
-    top: 0.7rem;
-    z-index: 1;
+  .o-hero_title {
+    width: 30%;
+    margin-top: 0.5rem;
   }
 
-//TITLE LINE
-  .o-titleline {
-    border-bottom: 1.5px dashed $darkgray;
-  }
 
-//MENU FONT
-  .o-menu__font a {
-    color: $navy
-  }
 
-  .o-menu__font a:hover {
-    color: $offgray;
-  }
 
-//MENU BUTTON
-  .o-menu__box {
-      margin: 2em 0;/*前後の余白*/
-      padding: 0;
-      line-height: 1;
-  }
-
-  /*ボタン装飾*/
-  .o-menu__label--button {
-      background: none;
-      width: 4rem;
-      height: 1.3rem;
-      border: 3px solid $navy;
-      border-radius: 100px;
-      cursor : pointer;
-  }
-
-  /*ボタンホバー時*/
-  .o-menu__label--button:hover {
-    background: $navy;
-    transition: 0.3s;
-  }
-
-  /*チェックは見えなくする*/
-  .o-menu__box input {
-      display: none;
-  }
-
-  /*中身を非表示にしておく*/
-  .o-menu__box .hidden_show {
-      height: 0;
-      padding: 0;
-      overflow: hidden;
-      opacity: 0;
-      transition: 0.8s;
-  }
-
-  /*クリックで中身表示*/
-  .o-menu__box input:checked ~ .hidden_show {
-      padding: 15px 0;
-      height: auto;
-      opacity: 1;
-  }
-
-//MAP BUTTON
-  .o-btn__map {
-    // position: fixed;
-    position: absolute;
-    top: 1rem;
-    left: 0;
-    border: 3px solid $navy;
-    border-radius: 100px;
-    padding-top: 3px;
-    z-index: 1;
-    transition: 0.3s;
-    p {
-      padding-top: 1px;
-    }
-  }
-
-  .o-btn__map:hover {
-    border: 3px solid $navy;
-    border-radius: 100px;
-    background-color: $navy;
-    p {
-      color: $offgray;
-    }
-  }
-
-//CONTACT BUTTON
-  .o-btn__contact {
-    border: 3px solid $navy;
-    border-radius: 100px;
-    transition: 0.3s;
-  }
-
-  .o-btn__contact:hover {
-    background: $navy;
-    color: $white;
-  }
-
-//INFO GRAPHIC
-  .o-info__graphic {
-    width: 75%;
-  }
-  .o-info__shape {
-    position: absolute;
-    top: 20%;
-    left: 20%;
-    width: 13%;
-  }
 
 /* ***************************************************************************
     PC(1024px)
@@ -142,53 +33,5 @@
     MOBILE(~768px)
   *************************************************************************** */
   @media screen and (max-width: 767px) {
-
-  //VCN LOGO
-    .o-logo {
-      top: 37%;
-      width: 30%;
-    }
-
-  //閉じる
-    .o-close {
-      display: block;
-      color: $pink;
-      font-size: $fs__sm--l;
-      text-decoration: underline;
-    }
-
-  //NAV MENU
-    .o-navmenu {
-      top: 0.6rem;
-      opacity: 0.9;
-    }
-
-  /*ボタンホバー時*/
-  .o-menu__label--button:hover {
-    background: none;
-  }
-
-  /*クリックで中身表示*/
-  .o-menu__box input:checked ~ .hidden_show {
-      height: 75vh;
-  }
-
-  //MAP BUTTON
-    .o-btn__map {
-      top: 1rem;
-    }
-
-    .o-btn__map:hover {
-      background-color: inherit;
-      p {
-        color: $navy;
-      }
-    }
-
-//CONTACT BUTTON
-    .o-btn__contact:hover {
-      background: inherit;
-      color: $navy;
-    }
 
   }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="176px" height="27px" viewBox="0 0 176 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="hp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.15">
+        <g id="トップページ" transform="translate(-627.000000, -658.000000)" fill="#4A4A4A">
+            <g id="ヒーロー" transform="translate(108.000000, 93.000000)">
+                <g id="logoアニメーション" transform="translate(420.000000, 207.000000)">
+                    <g id="mark" transform="translate(42.500000, 0.000000)">
+                        <ellipse id="Oval" cx="144.2" cy="371.7" rx="87.5" ry="13.3"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
