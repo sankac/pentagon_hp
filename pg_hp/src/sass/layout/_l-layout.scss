@@ -3,14 +3,18 @@
 // layout/_l-layout.scss ＊レイアウト関連
 //==========================================================================
 
+//HEADER
+  .l-header {
+  }
+
 //HERO:ALL AREA
   .l-hero {
-    height: 70vh;
+    height: 90vh;
   }
 
 //HERO:LOGO AREA
   .l-hero_logo {
-    margin-top: 30vh;
+    padding-top: 30vh;
   }
 
 

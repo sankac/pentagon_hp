@@ -7,6 +7,7 @@ body {
   width: 100%; }
 
 a {
+  color: inherit;
   text-decoration: none !important; }
 
 ul {
@@ -24,10 +25,10 @@ label {
   box-sizing: border-box; }
 
 .l-hero {
-  height: 70vh; }
+  height: 90vh; }
 
 .l-hero_logo {
-  margin-top: 30vh; }
+  padding-top: 30vh; }
 
 /* ***************************************************************************
     PC(1024px)
@@ -35,6 +36,9 @@ label {
 /* ***************************************************************************
     MOBILE(~768px)
   *************************************************************************** */
+.o-header_logomark {
+  width: 3%; }
+
 .o-hero_logomark {
   width: 15%; }
 
@@ -46,95 +50,118 @@ label {
   width: 30%;
   margin-top: 0.5rem; }
 
+.o-line_blue {
+  top: 0;
+  right: 0; }
+
+.o-line_green {
+  top: 0;
+  right: 0; }
+
+.o-line_purple {
+  top: 0;
+  right: 0; }
+
+.o-line_red {
+  top: 0;
+  right: 0; }
+
+.o-line_yellow {
+  top: 0;
+  right: 0; }
+
+.o-symbol_01 {
+  width: 30%; }
+
+.o-symbol_text {
+  width: 60%; }
+
 /* ***************************************************************************
     PC(1024px)
   *************************************************************************** */
 /* ***************************************************************************
     MOBILE(~768px)
   *************************************************************************** */
-.u-fontfamily__en {
+.u-ff_en {
   font-family: "Josefin Sans", sans-serif; }
 
-.u-fontsize__xxs {
+.u-fs_xxs {
   font-size: 0.7rem; }
 
-.u-fontsize__xs {
+.u-fs_xs {
   font-size: 1rem; }
 
-.u-fontsize__s {
+.u-fs_s {
   font-size: 1.4rem; }
 
-.u-fontsize__m {
+.u-fs_m {
   font-size: 1.9rem; }
 
-.u-fontsize__l {
+.u-fs_l {
   font-size: 2.4rem; }
 
-.u-fontsize__xl {
+.u-fs_xl {
   font-size: 3.7rem; }
 
-.u-fontsize__xxl {
+.u-fs_xxl {
   font-size: 5.4rem; }
 
-.u-fontsize__menu {
-  font-size: 1rem; }
-
-.u-fontweight__xs {
+.u-fw_xs {
   font-weight: 100; }
 
-.u-fontweight__s {
+.u-fw_s {
   font-weight: 300; }
 
-.u-fontweight__m {
+.u-fw_m {
   font-weight: 500; }
 
-.u-fontweight__l {
+.u-fw_l {
   font-weight: 700; }
 
-.u-fontweight__xl {
+.u-fw_xl {
   font-weight: 800; }
 
-.u-fontweight__xxl {
+.u-fw_xxl {
   font-weight: 900; }
 
-.u-fontweight__xs--en {
+.u-fw_xs-en {
   font-weight: 100; }
 
-.u-fontweight__s--en {
+.u-fw_s-en {
   font-weight: 300; }
 
-.u-fontweight__m--en {
+.u-fw_m-en {
   font-weight: 400; }
 
-.u-fontweight__l--en {
+.u-fw_l-en {
   font-weight: 600; }
 
-.u-fontweight__xl--en {
+.u-fw_xl-en {
   font-weight: 700; }
 
-.u-fontcolor__none {
+.u-fc_none {
   color: none; }
 
-.u-fontcolor__white {
+.u-fc_white {
   color: #fff; }
 
-.u-fontcolor__navy {
-  color: #385D89; }
+.u-fc_darkgray {
+  color: #4A4A4A; }
 
-.u-lineheight__s {
+.u-lh_s {
   line-height: 0.8; }
 
-.u-letterspacing__l {
+.u-ls_l {
   letter-spacing: 0.7rem; }
 
-.u-letterspacing__xl {
+.u-ls_xl {
   letter-spacing: 1rem; }
 
-.u-border-bottom {
+.u-border-b {
   border-bottom: 1px dashed #4A4A4A; }
 
-.u-bg__sand {
-  background-color: #EFE8DE; }
+.u-bg_darkgray {
+  background-color: #4A4A4A; }
 
 .u-font-upright {
   -ms-writing-mode: tb-rl;
@@ -151,46 +178,40 @@ label {
     PC(1024px)
   *************************************************************************** */
 @media screen and (max-width: 1023px) {
-  .u-fontsize__xxs {
+  .u-fs_xxs {
     font-size: 0.7vw; }
-  .u-fontsize__xs {
+  .u-fs_xs {
     font-size: 1.2vw; }
-  .u-fontsize__s {
+  .u-fs_s {
     font-size: 1.7vw; }
-  .u-fontsize__m {
+  .u-fs_m {
     font-size: 2.2vw; }
-  .u-fontsize__l {
+  .u-fs_l {
     font-size: 2.7vw; }
-  .u-fontsize__xl {
+  .u-fs_xl {
     font-size: 4.7vw; }
-  .u-fontsize__xxl {
-    font-size: 5.7vw; }
-  .u-fontsize__xl--h {
-    font-size: 3vh; } }
+  .u-fs_xxl {
+    font-size: 5.7vw; } }
 
 /* ***************************************************************************
     MOBILE(~768px)
   *************************************************************************** */
 @media screen and (max-width: 767px) {
-  .u-fontsize__xxs {
+  .u-fs_xxs {
     font-size: 3vw; }
-  .u-fontsize__xs {
+  .u-fs_xs {
     font-size: 3.5vw; }
-  .u-fontsize__s {
+  .u-fs_s {
     font-size: 4vw; }
-  .u-fontsize__m {
+  .u-fs_m {
     font-size: 4.5vw; }
-  .u-fontsize__l {
+  .u-fs_l {
     font-size: 5vw; }
-  .u-fontsize__xl {
+  .u-fs_xl {
     font-size: 7vw; }
-  .u-fontsize__xxl {
+  .u-fs_xxl {
     font-size: 8vw; }
-  .u-fontsize__xl--h {
-    font-size: 3vh; }
-  .u-fontsize__menu {
-    font-size: 5vw; }
-  .u-font-upright--sm {
+  .u-fu-none {
     -ms-writing-mode: inherit;
     -webkit-writing-mode: inherit;
     writing-mode: inherit;

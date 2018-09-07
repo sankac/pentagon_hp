@@ -7,11 +7,12 @@
     color: $darkgray;
     background-color: $white;
     font-family: $noto;
-    font-weight: $fw__m;
+    font-weight: $fw_m;
     width: 100%;
   }
 
   a {
+    color: inherit;
     text-decoration: none!important;
   }
 

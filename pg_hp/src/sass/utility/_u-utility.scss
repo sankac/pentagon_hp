@@ -3,136 +3,130 @@
 // utility/_u-utlity.scss ＊テキスト関連・調整
 //==========================================================================
 
-//フォントファミリー
-  .u-fontfamily__en {
+//FONT FAMILY
+  .u-ff_en {
     font-family: $josefin;
   }
 
-//フォントサイズ：rem
+//FONT SIZE：rem
 
-  .u-fontsize__xxs {
-    font-size: $fs__xxs;
+  .u-fs_xxs {
+    font-size: $fs_xxs;
   }
-  .u-fontsize__xs {
-    font-size: $fs__xs;
-  }
-
-  .u-fontsize__s {
-    font-size: $fs__s;
+  .u-fs_xs {
+    font-size: $fs_xs;
   }
 
-  .u-fontsize__m {
-    font-size: $fs__m;
+  .u-fs_s {
+    font-size: $fs_s;
   }
 
-  .u-fontsize__l {
-    font-size: $fs__l;
+  .u-fs_m {
+    font-size: $fs_m;
   }
 
-  .u-fontsize__xl {
-    font-size: $fs__xl;
+  .u-fs_l {
+    font-size: $fs_l;
   }
 
-  .u-fontsize__xxl {
-    font-size: $fs__xxl;
+  .u-fs_xl {
+    font-size: $fs_xl;
   }
 
-
-//メニューフォントサイズ
-  .u-fontsize__menu {
-    font-size: $fs__xs;
+  .u-fs_xxl {
+    font-size: $fs_xxl;
   }
 
-//フォントウェイトJAPANESE
-  .u-fontweight__xs {
-    font-weight: $fw__xs;
+//FONT WEIGHT:JAPANESE
+  .u-fw_xs {
+    font-weight: $fw_xs;
   }
 
-  .u-fontweight__s {
-    font-weight: $fw__s;
+  .u-fw_s {
+    font-weight: $fw_s;
   }
 
-  .u-fontweight__m {
-    font-weight: $fw__m;
+  .u-fw_m {
+    font-weight: $fw_m;
   }
 
-  .u-fontweight__l {
-    font-weight: $fw__l;
+  .u-fw_l {
+    font-weight: $fw_l;
   }
 
-  .u-fontweight__xl {
-    font-weight: $fw__xl;
+  .u-fw_xl {
+    font-weight: $fw_xl;
   }
 
-  .u-fontweight__xxl {
-    font-weight: $fw__xxl;
+  .u-fw_xxl {
+    font-weight: $fw_xxl;
   }
 
-//フォントウェイトENGLISH
-  .u-fontweight__xs--en {
-    font-weight: $fw__xs--en;
+//FONT WEIGHT:ENGLISH
+  .u-fw_xs-en {
+    font-weight: $fw_xs-en;
   }
 
-  .u-fontweight__s--en {
-    font-weight: $fw__s--en;
+  .u-fw_s-en {
+    font-weight: $fw_s-en;
   }
 
-  .u-fontweight__m--en {
-    font-weight: $fw__m--en;
+  .u-fw_m-en {
+    font-weight: $fw_m-en;
   }
 
-  .u-fontweight__l--en {
-    font-weight: $fw__l--en;
+  .u-fw_l-en {
+    font-weight: $fw_l-en;
   }
 
-  .u-fontweight__xl--en {
-    font-weight: $fw__xl--en;
+  .u-fw_xl-en {
+    font-weight: $fw_xl-en;
   }
 
-//フォントカラー
-  .u-fontcolor__none {
+//FONT COLOR
+  .u-fc_none {
     color: none;
   }
 
-  .u-fontcolor__white {
+  .u-fc_white {
     color: $white;
   }
 
-  .u-fontcolor__navy {
-    color: $navy;
+  .u-fc_darkgray {
+    color: $darkgray;
   }
 
-//ラインハイト
-  .u-lineheight__s {
+//LINE HEIGHT
+  .u-lh_s {
     line-height: 0.8;
   }
 
-//レタースペーシング
- .u-letterspacing__l {
+//LETTER SPACEING
+ .u-ls_l {
     letter-spacing: 0.7rem;
   }
 
-  .u-letterspacing__xl {
+  .u-ls_xl {
     letter-spacing: 1rem;
   }
 
-//下線
-  .u-border-bottom {
+//BORDER BOTTOM
+  .u-border-b {
     border-bottom: 1px dashed $darkgray;
   }
 
-//背景
- .u-bg__sand {
-   background-color: $sand;
+//BACKGROUND COLOR
+ .u-bg_darkgray {
+   background-color: $darkgray;
  }
 
-//フォント縦書き
+//FONT UPRIGHT:縦書き
   .u-font-upright {
     -ms-writing-mode: tb-rl;
    writing-mode: vertical-rl;
   }
 
-//フォント回転
+//FONT ROATE:回転
   .u-font-roate__90 {
     transform: rotate( 90deg );
     white-space: wrap;
@@ -144,35 +138,31 @@
   @media screen and (max-width: 1023px) {
 
   //フォントサイズ：vw
-    .u-fontsize__xxs {
-      font-size: $fs__md--xxs;
+    .u-fs_xxs {
+      font-size: $fs_md-xxs;
     }
-    .u-fontsize__xs {
-      font-size: $fs__md--xs;
-    }
-
-    .u-fontsize__s {
-      font-size: $fs__md--s;
+    .u-fs_xs {
+      font-size: $fs_md-xs;
     }
 
-    .u-fontsize__m {
-      font-size: $fs__md--m;
+    .u-fs_s {
+      font-size: $fs_md-s;
     }
 
-    .u-fontsize__l {
-      font-size: $fs__md--l;
+    .u-fs_m {
+      font-size: $fs_md-m;
     }
 
-    .u-fontsize__xl {
-      font-size: $fs__md--xl;
+    .u-fs_l {
+      font-size: $fs_md-l;
     }
 
-    .u-fontsize__xxl {
-      font-size: $fs__md--xxl;
+    .u-fs_xl {
+      font-size: $fs_md-xl;
     }
 
-    .u-fontsize__xl--h {
-      font-size: $fs__md__xl--h;
+    .u-fs_xxl {
+      font-size: $fs_md-xxl;
     }
 
   }
@@ -184,45 +174,36 @@
 
   //スマホフォントサイズ：vw
 
-    .u-fontsize__xxs {
-    font-size: $fs__sm--xxs;
+    .u-fs_xxs {
+    font-size: $fs_sm-xxs;
   }
 
-    .u-fontsize__xs {
-      font-size: $fs__sm--xs;
+    .u-fs_xs {
+      font-size: $fs_sm-xs;
     }
 
-    .u-fontsize__s {
-      font-size: $fs__sm--s;
+    .u-fs_s {
+      font-size: $fs_sm-s;
     }
 
-    .u-fontsize__m {
-      font-size: $fs__sm--m;
+    .u-fs_m {
+      font-size: $fs_sm-m;
     }
 
-    .u-fontsize__l {
-      font-size: $fs__sm--l;
+    .u-fs_l {
+      font-size: $fs_sm-l;
     }
 
-    .u-fontsize__xl {
-      font-size: $fs__sm--xl;
+    .u-fs_xl {
+      font-size: $fs_sm-xl;
     }
 
-    .u-fontsize__xxl {
-      font-size: $fs__sm--xxl;
-    }
-
-    .u-fontsize__xl--h {
-      font-size: $fs__sm__xl--h;
-    }
-
-  //メニューフォントサイズ
-    .u-fontsize__menu {
-      font-size: $fs__sm--l;
+    .u-fs_xxl {
+      font-size: $fs_sm-xxl;
     }
 
   //フォント縦書き解除
-    .u-font-upright--sm {
+    .u-fu-none {
       -ms-writing-mode: inherit;
       writing-mode: inherit;
       margin-left: 1rem;

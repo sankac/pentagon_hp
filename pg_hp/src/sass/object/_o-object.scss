@@ -3,6 +3,11 @@
 // object/_o-object.scss ＊オブジェクト・アイテム関連
 //==========================================================================
 
+//HEADER
+  .o-header_logomark {
+    width: 3%;
+  }
+
 //HERO:LOGO AREA
   .o-hero_logomark {
     width: 15%;
@@ -17,6 +22,42 @@
     width: 30%;
     margin-top: 0.5rem;
   }
+
+//HERO:COLOR LINES
+  .o-line_blue {
+    top: 0;
+    right: 0;
+  }
+
+  .o-line_green {
+    top: 0;
+    right: 0;
+  }
+
+  .o-line_purple {
+    top: 0;
+    right: 0;
+  }
+
+  .o-line_red {
+    top: 0;
+    right: 0;
+  }
+
+  .o-line_yellow {
+    top: 0;
+    right: 0;
+  }
+
+//SYMBOL
+  .o-symbol_01 {
+    width: 30%;
+  }
+
+  .o-symbol_text {
+    width: 60%;
+  }
+
 
 
 
