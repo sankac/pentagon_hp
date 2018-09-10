@@ -3,18 +3,19 @@
 // layout/_l-layout.scss ＊レイアウト関連
 //==========================================================================
 
-//HEADER
-  .l-header {
-  }
-
 //HERO:ALL AREA
   .l-hero {
-    height: 90vh;
+    height: 100vh;
   }
 
 //HERO:LOGO AREA
   .l-hero_logo {
     padding-top: 30vh;
+  }
+
+  .l-concept {
+    height: 100vh;
+    background: no-repeat center/90% url("/assets/img/shape/shape_house.svg");
   }
 
 

@@ -25,10 +25,14 @@ label {
   box-sizing: border-box; }
 
 .l-hero {
-  height: 90vh; }
+  height: 100vh; }
 
 .l-hero_logo {
   padding-top: 30vh; }
+
+.l-concept {
+  height: 100vh;
+  background: no-repeat center/90% url("/assets/img/shape/shape_house.svg"); }
 
 /* ***************************************************************************
     PC(1024px)
@@ -71,10 +75,10 @@ label {
   right: 0; }
 
 .o-symbol_01 {
-  width: 30%; }
+  width: 25%; }
 
 .o-symbol_text {
-  width: 60%; }
+  width: 50%; }
 
 /* ***************************************************************************
     PC(1024px)
@@ -92,19 +96,19 @@ label {
   font-size: 1rem; }
 
 .u-fs_s {
-  font-size: 1.4rem; }
+  font-size: 1.3rem; }
 
 .u-fs_m {
-  font-size: 1.9rem; }
+  font-size: 1.8rem; }
 
 .u-fs_l {
-  font-size: 2.4rem; }
+  font-size: 2.3rem; }
 
 .u-fs_xl {
-  font-size: 3.7rem; }
+  font-size: 3.6rem; }
 
 .u-fs_xxl {
-  font-size: 5.4rem; }
+  font-size: 5.3rem; }
 
 .u-fw_xs {
   font-weight: 100; }
